@@ -38,6 +38,7 @@ export const Project = defineDocumentType(() => ({
 		},
 		url: {
 			type: "string",
+			required: true,
 		},
 		repository: {
 			type: "string",
