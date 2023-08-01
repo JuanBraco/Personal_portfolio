@@ -10,10 +10,10 @@ export const revalidate = 60;
 export default async function ProjectsPage() {
 
 	const featured = allProjects.find(
-		(project) => project.slug === "cub",
+		(project) => project.slug === "webServer",
 	)!;
 	const top2 = allProjects.find((project) => project.slug === "minishell")!;
-	const top3 = allProjects.find((project) => project.slug === "library")!;
+	const top3 = allProjects.find((project) => project.slug === "cub")!;
 	const sorted = allProjects
 		.filter((p) => p.published)
 		.filter(
