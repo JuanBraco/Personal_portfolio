@@ -17,9 +17,16 @@ cd Personal_portfolio
 
 Then install dependencies and run the development server:
 ```sh-session
+npm install
+npm run dev
+
+or 
+
 pnpm install
 pnpm dev
 ```
+
+Once the development server is running, open your web browser and visit http://localhost:3000/ to see your locally hosted website.
 
 
 ## Cloning / Forking
