@@ -47,10 +47,10 @@ export default function Game() {
 
 		p5.setup = () => p5.createCanvas(width, height);
 	
-		// p5.windowResized = () => {
-		// 	updateCanvasSize();
-		// 	p5.resizeCanvas(width, height);
-		// };
+		p5.windowResized = () => {
+			updateCanvasSize();
+			p5.resizeCanvas(width, height);
+		};
 
 		p5.draw = () => {
 			handleDraw(p5, canvasSize, varGame);
