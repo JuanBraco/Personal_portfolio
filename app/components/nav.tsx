@@ -46,6 +46,12 @@ export const Navigation: React.FC = () => {
 						>
 							Game
 						</Link>
+						<Link
+							href="/map"
+							className="duration-200 text-zinc-400 hover:text-zinc-100"
+						>
+							Map
+						</Link>
 					</div>
 
 					<Link

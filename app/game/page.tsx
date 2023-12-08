@@ -10,8 +10,6 @@ const ClientSideSketch = dynamic(() => import("./DrawSketch"), {
 
 export default function Game() {
 	const [gameStarted, setGameStarted] = useState(false);
-	const [canvasSize, setCanvasSize] = useState({ width: 0, height: 0 });
-
 
 	useEffect(() => {
 		const handleKeyDown = (e: KeyboardEvent) => {

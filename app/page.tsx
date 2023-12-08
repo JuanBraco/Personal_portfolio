@@ -6,6 +6,7 @@ const navigation = [
 	{ name: "Projects", href: "/projects" },
 	{ name: "Contact", href: "/contact" },
 	{ name: "Game", href: "/game" },
+	{ name: "Map", href: "/map" },
 ];
 
 export default function Home() {
