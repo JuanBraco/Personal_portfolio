@@ -13,7 +13,7 @@ const socials = [
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:jbdelafage@gmail.com",
+		href: "mailto:jbraco92@gmail.com",
 		label: "Email",
 		handle: "jbdelafage@gmail.com",
 	},
